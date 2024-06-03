@@ -1,14 +1,51 @@
 void main() {
-  String name = "Pukar Nepali";
-  String address = "Pokhara";
-  int phoneNumber = 9800000000;
-  bool isMarried = false;
-  String educationQualification = "BSc. IT";
-  double height = 5.6;
-  int weight = 71;
+  // Operators
 
-  print(
-      "My Name is $name.  address is $address.  phone number is $phoneNumber.  \n height is $height.  weight is $weight.  Education Qualification is $educationQualification.  Marritial Status $isMarried.");
+  // Logical Operators
+
+  // Comparison Operators
+
+  int a = 10;
+  int b = 20;
+
+  print(a <= b);
+  print(a == b);
+
+  // Arithmetic Operators
+  // +,-,/,*.%,~/
+
+  // int a, b, c;
+  //  a = 10;
+  //  b = 20;
+
+  // print("The Sum is ${a + b}");
+  // print("The Diffrences is ${a - b}");
+  // print("The Product is ${a * b}");
+  // print("The division is ${a / b}");
+  // print("The integer division is ${a ~/ b}");
+  // print("The Remainder is ${a % b}");
+
+  // String name = "Pukar Nepali";
+  // String address = "Pokhara";
+  // int phoneNumber = 9800000000;
+  // bool isMarried = false;
+  // String educationQualification = "BSc. IT";
+  // double height = 5.6;
+  // int weight = 71;
+
+  // print(
+  //     """My Name is $name.  address is $address.  phone number is $phoneNumber.
+  //     \nheight is $height.  weight is $weight.  Education Qualification is $educationQualification.  Marritial Status $isMarried.""");
+
+  // print("\n My name is $name,\n I am from $address");
+
+  // ///  use of \n to next line
+  // print("My name is " + name);
+
+  // int num1 = 10;
+  // int num2 = 20;
+
+  // print("The sum of $num1 and $num2 is ${num1 + num2}");   /// use {} curly braces to use operator
   // // name, address, phone number , marritial status, education qualification, height, weight
   // print("Hello World");
 
@@ -49,4 +86,4 @@ void main() {
 
 // single line comments => // My Name is Pukar Nepali.
 // multi line comments => /* My Name is Pukar Nepali. */
-// documentation comments => /// use of documentation comments
+// documentation comments => /// use for documentation comments
