@@ -24,10 +24,55 @@ void main() {
     print("Using for loop");
   }
 
-  */
+  
   for (int i = 0; i <= 10; i++) {
     print("Using for loop #$i");
   }
+  
+  => write a number to find a sum of till ten
+  int sum = 0;
+  for (int i = 1; i <= 10; i++) {
+    sum = sum + i;
+  }
+  print("$sum");
+  */
+
+  /* While loop
+
+  int i = 1;
+  while (i < 10) {
+    print(" Using while loop");
+    i++;
+  }
+  
+ => write a number to find a sum of till ten
+
+  int sum = 0;
+  int i = 1;
+  while (i <= 10) {
+    sum = sum + i;
+    i++;
+  }
+  print("$sum");
+*/
+
+/* Do While loop 
+ syntax
+int variable = 0;
+ do {
+  code block;
+  i++;
+ }
+ while (condition);
+ print(" result ");
+
+*/
+
+  int i = 0;
+  do {
+    print("Name $i");
+    i++;
+  } while (i < 100);
 
 // Ternary Operator
 // syantax
