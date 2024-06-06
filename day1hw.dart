@@ -147,4 +147,20 @@ void main() {
 
   ++a;
   print(a);
+
+  // Question 10: Logical Operators
+  // Write a Dart program that takes three boolean inputs from the user (representing whether a student has completed assignments, attended classes, and passed exams). Determine if the student is eligible for a certificate. The student must have completed assignments, attended classes, and passed exams to be eligible.
+  print("Note: Answer all the Question in true or false!!");
+  print("Did student has completed assignment ?");
+  bool completedAssignment = bool.parse(stdin.readLineSync()!);
+  print("Did student has Attend Class ?");
+  bool attendClass = bool.parse(stdin.readLineSync()!);
+  print("Did student has passed exam ?");
+  bool passExam = bool.parse(stdin.readLineSync()!);
+
+  if (completedAssignment == true && attendClass == true && passExam == true) {
+    print("The student is eligible for a certificate ");
+  } else {
+    print("The student isnot eligible for a certificate");
+  }
 }
