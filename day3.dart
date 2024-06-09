@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   // Loop
   // 1. For loop
@@ -68,11 +66,11 @@ int variable = 0;
 
 */
 
-  int i = 0;
-  do {
-    print("Name $i");
-    i++;
-  } while (i < 100);
+  // int i = 0;
+  // do {
+  //   print("Name $i");
+  //   i++;
+  // } while (i < 100);
 
 // Ternary Operator
 // syantax
