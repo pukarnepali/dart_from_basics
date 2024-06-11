@@ -1,27 +1,52 @@
-// Abstraction
+// getter and setter
 
-abstract class Animal {
-  bark();
-  move();
-}
+class Student {
+  String? _name;
 
-class Dog extends Animal {
-  @override
-  bark() {
-    print("Dog barks");
+  String? get name {
+    print("Getter  is called");
+    return _name;
   }
 
-  @override
-  move() {
-    print("Dog moves");
+  // String? get name => _name;
+
+  setName(name) {
+    print(" setter is called");
+    _name = name;
   }
 }
 
 void main() {
-  Dog dog = Dog();
+  Student std = Student();
 
-  dog.bark();
+  std.setName("Ankit");
+  print(std.name);
 }
+
+// Abstraction
+
+// abstract class Animal {
+//   bark();
+//   move();
+// }
+
+// class Dog extends Animal {
+//   @override
+//   bark() {
+//     print("Dog barks");
+//   }
+
+//   @override
+//   move() {
+//     print("Dog moves");
+//   }
+// }
+
+// void main() {
+//   Dog dog = Dog();
+
+//   dog.bark();
+// }
 
 /*
 
